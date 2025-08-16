@@ -21,7 +21,7 @@ import {
   styleUrl: './task.css',
 })
 export class Task {
-  done = [{ tirulo: '', descricao: '' }];
+  done = [{ titulo: '', descricao: '' }];
   doing = [{ titulo: '', descricao: '' }];
   todo = [{ titulo: '', descricao: '' }];
 
