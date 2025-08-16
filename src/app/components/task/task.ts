@@ -21,23 +21,9 @@ import {
   styleUrl: './task.css',
 })
 export class Task {
-  done = [
-    { tirulo: 'Get up', descricao: 'descricao da tarefa' },
-    { titulo: 'Brush teeth', descricao: 'descricao de brush teeth' },
-    { titulo: 'Take a shower', descricao: 'descricao do take shower' },
-    { titulo: 'Check e-mail', descricao: 'descricao de check e-mail' },
-    { titulo: 'Walk dog', descricao: 'descricao de walk dog' },
-  ];
+  done = [{ tirulo: '', descricao: '' }];
   doing = [{ titulo: '', descricao: '' }];
-  todo = [
-    { titulo: 'Get to work', descricao: 'descricao de get to work' },
-    {
-      titulo: 'Pick up groceries',
-      descricao: 'descricao de pick up groceries',
-    },
-    { titulo: 'Go home', descricao: 'descricao de go home' },
-    { titulo: 'Fall asleep', descricao: 'descricao de fall asleep' },
-  ];
+  todo = [{ titulo: '', descricao: '' }];
 
   form: FormGroup;
 
